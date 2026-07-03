@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Conecta Instalaciones | Aire Acondicionado en Barcelona</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;600;700&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "tertiary": "#000000",
+                    "surface-container-high": "#dce9ff",
+                    "background": "#f8f9ff",
+                    "inverse-on-surface": "#eaf1ff",
+                    "secondary": "#5c5f61",
+                    "on-surface": "#0b1c30",
+                    "on-secondary-fixed-variant": "#444749",
+                    "surface-dim": "#cbdbf5",
+                    "surface-container-low": "#eff4ff",
+                    "on-error": "#ffffff",
+                    "error": "#ba1a1a",
+                    "error-container": "#ffdad6",
+                    "on-tertiary-container": "#3980f4",
+                    "on-secondary": "#ffffff",
+                    "primary-fixed-dim": "#bec6e0",
+                    "surface-tint": "#565e74",
+                    "surface-variant": "#d3e4fe",
+                    "tertiary-container": "#001a42",
+                    "primary": "#000000",
+                    "secondary-fixed-dim": "#c4c7c9",
+                    "surface-container-lowest": "#ffffff",
+                    "on-tertiary": "#ffffff",
+                    "on-surface-variant": "#45464d",
+                    "surface-container": "#e5eeff",
+                    "on-primary": "#ffffff",
+                    "inverse-surface": "#213145",
+                    "surface-bright": "#f8f9ff",
+                    "secondary-fixed": "#e0e3e5",
+                    "on-primary-fixed": "#131b2e",
+                    "on-error-container": "#93000a",
+                    "surface-container-highest": "#d3e4fe",
+                    "secondary-container": "#e0e3e5",
+                    "outline-variant": "#c6c6cd",
+                    "tertiary-fixed-dim": "#adc6ff",
+                    "on-primary-fixed-variant": "#3f465c",
+                    "outline": "#76777d",
+                    "on-secondary-container": "#626567",
+                    "on-background": "#0b1c30",
+                    "primary-fixed": "#dae2fd",
+                    "on-secondary-fixed": "#191c1e",
+                    "tertiary-fixed": "#d8e2ff",
+                    "primary-container": "#131b2e",
+                    "surface": "#f8f9ff",
+                    "on-primary-container": "#7c839b",
+                    "on-tertiary-fixed": "#001a42",
+                    "on-tertiary-fixed-variant": "#004395",
+                    "inverse-primary": "#bec6e0"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "spacing": {
+                    "container-max": "1280px",
+                    "section-gap": "80px",
+                    "margin-desktop": "48px",
+                    "margin-mobile": "16px",
+                    "base": "8px",
+                    "gutter": "24px"
+            },
+            "fontFamily": {
+                    "headline-xl": ["Hanken Grotesk"],
+                    "body-lg": ["Inter"],
+                    "headline-md": ["Hanken Grotesk"],
+                    "label-sm": ["Inter"],
+                    "label-md": ["Inter"],
+                    "headline-lg": ["Hanken Grotesk"],
+                    "body-md": ["Inter"],
+                    "headline-lg-mobile": ["Hanken Grotesk"]
+            },
+            "fontSize": {
+                    "headline-xl": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                    "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                    "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                    "label-sm": ["12px", {"lineHeight": "16px", "fontWeight": "500"}],
+                    "label-md": ["14px", {"lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "600"}],
+                    "headline-lg": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "700"}],
+                    "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                    "headline-lg-mobile": ["28px", {"lineHeight": "34px", "fontWeight": "700"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .cta-pulse {
+            animation: pulse-ring 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+        }
+        @keyframes pulse-ring {
+            0%, 100% { opacity: 1; }
+            50% { opacity: .7; }
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+        .emergency-pill {
+            background: linear-gradient(90deg, #ba1a1a 0%, #ff5c5c 100%);
+        }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body-md overflow-x-hidden">
+<!-- Header / TopNavBar -->
+<header class="bg-surface/95 backdrop-blur-md shadow-sm sticky top-0 z-50 w-full transition-all duration-300">
+<div class="flex justify-between items-center w-full px-margin-mobile md:px-margin-desktop py-4 max-w-container-max mx-auto">
+<div class="flex flex-col">
+<span class="font-headline-md text-headline-md font-bold text-on-surface">Conecta Instalaciones</span>
+<div class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span>
+<span class="font-label-sm text-label-sm text-secondary">Abierto 24h</span>
+</div>
+</div>
+<nav class="hidden md:flex gap-8 items-center">
+<a class="text-tertiary-container border-b-2 border-tertiary-container pb-1 font-label-md" href="#inicio">Inicio</a>
+<a class="text-secondary font-label-md hover:text-tertiary transition-colors" href="#servicios">Servicios</a>
+<a class="text-secondary font-label-md hover:text-tertiary transition-colors" href="#porque-nosotros">Por qué elegirnos</a>
+<a class="text-secondary font-label-md hover:text-tertiary transition-colors" href="#contacto">Contacto</a>
+</nav>
+<div class="flex items-center gap-4">
+<a class="hidden lg:flex items-center gap-2 bg-on-tertiary-container text-white px-6 py-2.5 rounded-full font-label-md hover:scale-95 transition-transform" href="tel:663476584">
+<span class="material-symbols-outlined text-sm">call</span>
+                    Llamar: 663 47 65 84
+                </a>
+<button class="md:hidden text-on-surface">
+<span class="material-symbols-outlined text-3xl">menu</span>
+</button>
+</div>
+</div>
+</header>
+<main>
+<!-- Hero Section -->
+<section class="relative min-h-[819px] flex items-center overflow-hidden" id="inicio">
+<div class="absolute inset-0 z-0">
+<div class="absolute inset-0 bg-gradient-to-r from-background via-background/80 to-transparent z-10"></div>
+<img class="w-full h-full object-cover" data-alt="A high-end modern apartment interior with clean white walls and minimalist decor. A sleek, white split-system air conditioning unit is discreetly mounted high on a wall. The lighting is bright and natural, coming from large windows. The overall aesthetic is professional, airy, and premium, using a color palette of soft whites and cool blues to evoke a sense of comfort and relief from heat." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC1ewmUHpEiB95Grw3WWQizS-tHrktTkzxjTAmkXT5uIsal1F3rgy-FCZ1pa-KJZZqqxSb2_oXl6puy2QzxEP5dWZ4JSZBj2ZusYo93q6YobjZakqyr1Vnn_0ZUvGK0XwTsDKnGINsKUBgIeYxJJPwvbB8aX19fK1R5lb7gQifn2PzRtFATGMmy6bayG0za66qoF3e8tSuYxO7ndiZnrgbcInq0L5Feve2wx-gQdWLzgQ9ot_KylIMS"/>
+</div>
+<div class="relative z-20 w-full px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto py-12 md:py-24">
+<div class="max-w-2xl space-y-8">
+<div class="inline-flex items-center gap-2 bg-surface-container-high px-4 py-1.5 rounded-full border border-on-tertiary-container/20">
+<span class="emergency-pill w-2 h-2 rounded-full"></span>
+<span class="font-label-sm text-on-tertiary-fixed-variant uppercase tracking-wider">Servicio Urgente en Barcelona</span>
+</div>
+<h1 class="font-headline-xl text-headline-lg-mobile md:text-headline-xl text-on-surface leading-tight">
+                        Aire Acondicionado en Barcelona: <span class="text-on-tertiary-container">Instalación Rápida</span> y Profesional
+                    </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">
+                        Suministro e instalación inmediata. Disponibles las 24 horas para garantizar el confort de tu hogar o negocio con la máxima eficiencia energética.
+                    </p>
+<div class="flex flex-col sm:flex-row gap-4 pt-4">
+<a class="flex items-center justify-center gap-2 bg-[#FF6B00] text-white px-8 py-4 rounded-lg font-label-md text-lg shadow-lg hover:bg-[#E66000] transition-all transform hover:-translate-y-1" href="#presupuesto">
+                            Pedir presupuesto gratis
+                        </a>
+<a class="flex items-center justify-center gap-2 border-2 border-tertiary text-tertiary px-8 py-4 rounded-lg font-label-md text-lg hover:bg-tertiary hover:text-white transition-all" href="tel:663476584">
+<span class="material-symbols-outlined">call</span>
+                            663 47 65 84
+                        </a>
+</div>
+<div class="flex items-center gap-6 pt-8 border-t border-outline-variant/30">
+<div class="flex -space-x-2">
+<div class="w-10 h-10 rounded-full border-2 border-surface bg-gray-200 overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Close up portrait of a professional HVAC technician wearing a clean blue uniform and a friendly smile, high-key studio lighting, modern corporate photography style." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBap_iRNPr7tpdOOTZh_DaxlQi9MaacWkaT_uhQk8sDjTvnr_4rE2vHBEck_DGQgQPSXvnyRbGJ1crHBkm3hL8Brds-MLE3mAn6jb29kmJUuzq7DCekBacQVGCHgAS6X-Lf6IzANKUTBPIXt7vC6MyDP-jarjUUen_szP7C88TIcCCDPtqa8Bf-EJOkxj_925LYR62CTjJzm28W_v1lj0v_rxeU1nb6pe7ZCCpHcL_UGMlqEt2yn7zP"/>
+</div>
+<div class="w-10 h-10 rounded-full border-2 border-surface bg-gray-300 overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Portrait of a female energy efficiency expert in a professional environment, looking confident and helpful, bright and clear visual style." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC5eMRxwIBBRr_Tkjvu6Z3-bFExhi2pCwqQae8_E437cQtZEUN8oBgZD8sOWbO0ty6Nzmd8P_AF8QkSZJg8bgHQMrzdB5fauIp1d1oZ5mIzCrdcBjHV_1qRzd37FI7n8zvNoEXfJeyD0L2cF6atOX6Wj91emxIDHADKKg9cArhzY-VM7TrM-4klOSGY3p_UVUfuaD0OhbCS9Q79EyWUXa_hY1Xst7ve0iPOG0C3Ls6Poe-UYKRc4SxX"/>
+</div>
+<div class="w-10 h-10 rounded-full border-2 border-surface bg-gray-400 overflow-hidden flex items-center justify-center bg-tertiary text-white text-xs font-bold">
+                                +15
+                            </div>
+</div>
+<p class="font-label-sm text-secondary">
+<span class="font-bold text-on-surface">+500 instalaciones</span> realizadas este año en Barcelona
+                        </p>
+</div>
+</div>
+</div>
+</section>
+<!-- Services Bento Grid -->
+<section class="py-section-gap px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto" id="servicios">
+<div class="text-center mb-16 space-y-4">
+<span class="text-on-tertiary-container font-label-md uppercase tracking-widest">Nuestros Servicios</span>
+<h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-surface">Soluciones Integrales de Climatización</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter">
+<!-- Card 1 -->
+<div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm border border-outline-variant/10 hover:shadow-md transition-all group">
+<div class="w-14 h-14 rounded-lg bg-surface-container-high flex items-center justify-center mb-6 group-hover:bg-on-tertiary-container transition-colors">
+<span class="material-symbols-outlined text-on-tertiary-container group-hover:text-white text-3xl">shopping_cart</span>
+</div>
+<h3 class="font-headline-md text-xl mb-4">Suministro de Equipos</h3>
+<p class="text-on-surface-variant font-body-md">Trabajamos con las mejores marcas del mercado: Mitsubishi, Daikin, LG y Fujitsu al mejor precio.</p>
+</div>
+<!-- Card 2 -->
+<div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm border border-outline-variant/10 hover:shadow-md transition-all group">
+<div class="w-14 h-14 rounded-lg bg-surface-container-high flex items-center justify-center mb-6 group-hover:bg-on-tertiary-container transition-colors">
+<span class="material-symbols-outlined text-on-tertiary-container group-hover:text-white text-3xl">construction</span>
+</div>
+<h3 class="font-headline-md text-xl mb-4">Instalación Profesional</h3>
+<p class="text-on-surface-variant font-body-md">Instaladores certificados con amplia experiencia. Garantizamos una puesta en marcha impecable.</p>
+</div>
+<!-- Card 3 -->
+<div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm border border-outline-variant/10 hover:shadow-md transition-all group">
+<div class="w-14 h-14 rounded-lg bg-surface-container-high flex items-center justify-center mb-6 group-hover:bg-on-tertiary-container transition-colors">
+<span class="material-symbols-outlined text-on-tertiary-container group-hover:text-white text-3xl">verified</span>
+</div>
+<h3 class="font-headline-md text-xl mb-4">Mantenimiento y Revisiones</h3>
+<p class="text-on-surface-variant font-body-md">Alarga la vida de tus equipos y mejora la calidad del aire con nuestras revisiones periódicas.</p>
+</div>
+<!-- Card 4 -->
+<div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm border border-on-error-container/10 hover:shadow-md transition-all group relative overflow-hidden">
+<div class="absolute top-0 right-0 p-2">
+<span class="bg-error text-white text-[10px] font-bold px-2 py-0.5 rounded-full">URGENTE</span>
+</div>
+<div class="w-14 h-14 rounded-lg bg-error-container flex items-center justify-center mb-6 group-hover:bg-error transition-colors">
+<span class="material-symbols-outlined text-error group-hover:text-white text-3xl">emergency</span>
+</div>
+<h3 class="font-headline-md text-xl mb-4">Reparaciones 24h</h3>
+<p class="text-on-surface-variant font-body-md">¿Tu aire ha dejado de funcionar? Acudimos en menos de 2 horas a cualquier punto de Barcelona.</p>
+</div>
+</div>
+</section>
+<!-- Trust Section -->
+<section class="bg-inverse-surface py-24" id="porque-nosotros">
+<div class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto text-white">
+<div class="grid lg:grid-cols-2 gap-16 items-center">
+<div>
+<h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg mb-8">¿Por qué confiar en Conecta Instalaciones?</h2>
+<p class="text-outline-variant text-lg mb-12">Nos avalan años de experiencia climatizando hogares barceloneses con un enfoque en la rapidez y la transparencia total.</p>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
+<div class="flex items-start gap-4">
+<div class="bg-white/10 p-3 rounded-lg"><span class="material-symbols-outlined text-white">schedule</span></div>
+<div>
+<h4 class="font-bold mb-1">Atención 24h</h4>
+<p class="text-sm text-outline-variant">Sin interrupciones, todos los días del año.</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<div class="bg-white/10 p-3 rounded-lg"><span class="material-symbols-outlined text-white">bolt</span></div>
+<div>
+<h4 class="font-bold mb-1">Máxima Rapidez</h4>
+<p class="text-sm text-outline-variant">Presupuesto en 1h, instalación en 24h.</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<div class="bg-white/10 p-3 rounded-lg"><span class="material-symbols-outlined text-white">badge</span></div>
+<div>
+<h4 class="font-bold mb-1">Técnicos Certificados</h4>
+<p class="text-sm text-outline-variant">Carné de instalador RITE obligatorio.</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<div class="bg-white/10 p-3 rounded-lg"><span class="material-symbols-outlined text-white">euro</span></div>
+<div>
+<h4 class="font-bold mb-1">Presupuesto Gratis</h4>
+<p class="text-sm text-outline-variant">Sin compromiso y precio cerrado.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="relative">
+<div class="absolute -inset-4 bg-on-tertiary-container/20 rounded-2xl blur-3xl"></div>
+<div class="relative rounded-2xl overflow-hidden shadow-2xl">
+<img class="w-full aspect-video object-cover" data-alt="A professional technician in a clean workspace meticulously checking the electronics of an indoor air conditioning unit. High contrast lighting, sharp focus on technical details, clean industrial aesthetic. The scene communicates precision and reliability." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBTBgdXg2wPVlnT08uXDrUPBZTsBGvQlyWQIGicLqPhnyUonwQUkXZBh7S3tKYngivjnc1TsgnVSRj46HSTu0yNWgF9jkChynk8rzG4rSv08zYQTR-XJ1po6tLgccAE1c9rWi2nQm_egirAj9nPmktEEdsgi3BiaqN2IipQF6WXMLzBjCTEAV-43IEPaUdwqVvULNCOlh8r5iqvdYPm59z76aH3M_ZXOUHAegv-5o3q5OjyhFVxMWZ-"/>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Testimonials -->
+<section class="py-section-gap px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+<h2 class="font-headline-lg text-center mb-16">Lo que dicen nuestros clientes</h2>
+<div class="grid md:grid-cols-3 gap-gutter">
+<div class="bg-surface p-8 rounded-xl border border-outline-variant/30 flex flex-col h-full">
+<div class="flex gap-1 text-orange-400 mb-4">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-on-surface-variant flex-grow italic">"Llamé por una urgencia un sábado por la tarde y en 2 horas estaban en casa. Instalación impecable y muy limpios."</p>
+<div class="mt-6 flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-surface-dim"></div>
+<div>
+<p class="font-bold text-sm">Marc Rovira</p>
+<p class="text-xs text-secondary">Eixample, Barcelona</p>
+</div>
+</div>
+</div>
+<div class="bg-surface p-8 rounded-xl border border-outline-variant/30 flex flex-col h-full">
+<div class="flex gap-1 text-orange-400 mb-4">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-on-surface-variant flex-grow italic">"Muy profesionales desde el primer momento. Me asesoraron sobre qué equipo era mejor para mi salón y ahorré un 20%."</p>
+<div class="mt-6 flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-surface-dim"></div>
+<div>
+<p class="font-bold text-sm">Elena Martínez</p>
+<p class="text-xs text-secondary">Sant Cugat</p>
+</div>
+</div>
+</div>
+<div class="bg-surface p-8 rounded-xl border border-outline-variant/30 flex flex-col h-full">
+<div class="flex gap-1 text-orange-400 mb-4">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-on-surface-variant flex-grow italic">"Servicio de 10. Cumplieron con los plazos y el precio fue exactamente el que me dieron en el presupuesto gratuito."</p>
+<div class="mt-6 flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-surface-dim"></div>
+<div>
+<p class="font-bold text-sm">Jordi Vila</p>
+<p class="text-xs text-secondary">Gràcia, Barcelona</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Location Section -->
+<section class="bg-surface-container-low py-section-gap">
+<div class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+<div class="grid lg:grid-cols-2 gap-gutter items-center">
+<div class="space-y-6">
+<h2 class="font-headline-lg">Servicio en toda Barcelona y alrededores</h2>
+<p class="text-lg text-on-surface-variant">Estamos ubicados en el corazón de la ciudad, lo que nos permite dar una respuesta inmediata a cualquier aviso.</p>
+<div class="space-y-4">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-on-tertiary-container">location_on</span>
+<span class="font-body-md">Carrer de Sepúlveda, 57, 08015 Barcelona</span>
+</div>
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-on-tertiary-container">map</span>
+<span class="font-body-md">Cobertura: Barcelona Capital, Badalona, Hospitalet, Sant Cugat, y Baix Llobregat.</span>
+</div>
+</div>
+</div>
+<div class="h-96 rounded-2xl overflow-hidden shadow-lg border-4 border-white">
+<img class="w-full h-full object-cover" data-alt="A clean and artistic aerial map view of the Eixample district in Barcelona, highlighting the Sepúlveda street area with a subtle professional pin icon. The map uses a soft, modern color scheme that complements the website's brand identity." data-location="Barcelona" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAZOTNaC0sp1lf2mQX5Sez6xGoBrQtUnYppnZ9Ddbl2nPyDNxnr0B7TqmgmVO8Ns1QPM07fa2mwbQ6Ua2FcE3FLEes_hWZToScP5dZv95Q-pH4o4LJbVOP3BwcWaBEBjWmiuCzldzrPk0u7vrfRFSCrqbrx2okaP2BoRfM-ZzjOoZoebIF-V3blUH6_aSMr5JrWPRGS7FYxiM4SIUDetLSdPKfq8o9JonDbZFc1uyl8VetWIpJEk5xG"/>
+</div>
+</div>
+</div>
+</section>
+<!-- Final CTA Section -->
+<section class="bg-[#FF6B00] py-20 overflow-hidden relative">
+<div class="absolute right-0 top-0 opacity-10 translate-x-1/4 -translate-y-1/4">
+<span class="material-symbols-outlined text-[400px]">ac_unit</span>
+</div>
+<div class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto text-center relative z-10">
+<h2 class="font-headline-xl text-white mb-6">¿Calor en casa? Te lo solucionamos hoy mismo.</h2>
+<p class="text-white/90 text-xl mb-12 max-w-2xl mx-auto">Nuestro equipo de guardia está listo para salir. Llama ahora y recibe tu presupuesto gratuito en menos de una hora.</p>
+<div class="flex flex-col items-center gap-8">
+<a class="inline-flex items-center gap-4 bg-white text-[#FF6B00] px-12 py-6 rounded-full text-3xl font-bold hover:scale-105 transition-all shadow-2xl" href="tel:663476584">
+<span class="material-symbols-outlined text-4xl">call</span>
+                        663 47 65 84
+                    </a>
+<span class="bg-white/20 text-white px-6 py-2 rounded-full font-label-md animate-pulse">ATENCIÓN INMEDIATA 24H</span>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-inverse-surface text-surface-container-lowest pt-20 pb-12">
+<div class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
+<div class="col-span-1 md:col-span-2 space-y-6">
+<span class="font-headline-md text-headline-md text-white block">Conecta Instalaciones</span>
+<p class="text-outline-variant max-w-md">Líderes en climatización en Barcelona. Calidad, rapidez y honestidad en cada instalación. Tu confort es nuestra prioridad número uno.</p>
+<div class="flex gap-4">
+<a class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-on-tertiary-container transition-colors" href="#"><span class="material-symbols-outlined text-xl">face_nod</span></a>
+<a class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-on-tertiary-container transition-colors" href="#"><span class="material-symbols-outlined text-xl">alternate_email</span></a>
+</div>
+</div>
+<div>
+<h5 class="text-white font-bold mb-6">Servicios</h5>
+<ul class="space-y-4 text-outline-variant">
+<li><a class="hover:text-white transition-colors" href="#">Aire Acondicionado</a></li>
+<li><a class="hover:text-white transition-colors" href="#">Cargas de Gas</a></li>
+<li><a class="hover:text-white transition-colors" href="#">Reparaciones Urgentes</a></li>
+<li><a class="hover:text-white transition-colors" href="#">Mantenimiento</a></li>
+</ul>
+</div>
+<div>
+<h5 class="text-white font-bold mb-6">Contacto</h5>
+<ul class="space-y-4 text-outline-variant">
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-sm">location_on</span>
+                            Carrer de Sepúlveda, 57<br/>08015 Barcelona
+                        </li>
+<li class="flex items-center gap-3">
+<span class="material-symbols-outlined text-sm">call</span>
+                            663 47 65 84
+                        </li>
+<li class="flex items-center gap-3">
+<span class="material-symbols-outlined text-sm">schedule</span>
+                            Abierto 24 Horas
+                        </li>
+</ul>
+</div>
+</div>
+<div class="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-outline-variant">
+<p>© 2024 Conecta Instalaciones. Todos los derechos reservados.</p>
+<div class="flex gap-6">
+<a class="hover:text-white" href="#">Privacidad</a>
+<a class="hover:text-white" href="#">Aviso Legal</a>
+<a class="hover:text-white" href="#">Cookies</a>
+</div>
+</div>
+</div>
+</footer>
+<!-- BottomNavBar (Mobile Only) -->
+<nav class="fixed bottom-0 left-0 w-full bg-surface-container-highest flex justify-around items-center px-4 py-2 safe-area-inset-bottom md:hidden z-50 shadow-lg border-t border-outline-variant/30">
+<a class="flex flex-col items-center justify-center text-on-surface-variant py-1" href="#presupuesto">
+<span class="material-symbols-outlined">description</span>
+<span class="font-label-sm text-[10px]">Presupuesto</span>
+</a>
+<a class="flex flex-col items-center justify-center bg-tertiary-container text-on-tertiary-container rounded-full px-6 py-2 scale-110 -translate-y-2 shadow-lg" href="tel:663476584">
+<span class="material-symbols-outlined">call</span>
+<span class="font-label-sm text-[10px]">Llamar</span>
+</a>
+<a class="flex flex-col items-center justify-center text-on-surface-variant py-1" href="https://wa.me/663476584">
+<span class="material-symbols-outlined">chat_bubble</span>
+<span class="font-label-sm text-[10px]">WhatsApp</span>
+</a>
+</nav>
+<script>
+        // Simple scroll indicator for header
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+            if (window.scrollY > 50) {
+                header.classList.add('py-2');
+                header.classList.remove('py-4');
+            } else {
+                header.classList.add('py-4');
+                header.classList.remove('py-2');
+            }
+        });
+    </script>
+</body></html>
